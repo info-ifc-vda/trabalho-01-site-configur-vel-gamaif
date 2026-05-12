@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiago Lopes Gonçalves</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+    <nav>
+        <h1>Professor Tiago Lopes Gonçalves</h1>
+    </nav>
+
+    <div class="painel">
+        <h3>Configurações</h3>
+
+        <button onclick="MudarTema()">
+            Tema Escuro/Claro
+        </button>
+
+        <button onclick="Aumentar()">
+            Aumentar Fonte
+        </button>
+
+        <button onclick="Diminuir()">
+            Diminuir Fonte
+        </button>
+    </div>
+
+    <header>
+        <img src="Img/images (5).jpg" alt="">
+
+        <h1>Professor Tiago Lopes Gonçalves</h1>
+
+        <p>
+            Professor dedicado criativo e apaixonado pelo ensino
+        </p>
+    </header>
+
+    <section>
+
+        <h2>Sobre</h2>
+
+        <p>
+            O professor Tiago Lopes Gonçalves é reconhecido pela sua dedicação ao ensino e pelo incentivo constatnte aos
+            alunos
+        </p>
+
+    </section>
+
+    <h2 id="h2galeria">Galeria</h2>
+
+
+    <div class="Galeria">
+        <img id="MudarImagem" src="Img/DSC_5412-1.jpg" alt="" onclick="MudarImagem(this)">
+
+        <img src="Img/images (1).jpg" alt="" onclick="MudarImagem(this)">
+
+        <img src="Img/images (2).jpg" alt="" onclick="MudarImagem(this)">
+
+
+    </div>
+
+
+    <section>
+        <h2>Curiosidades</h2>
+
+        <div class="Curiosidades">
+
+            <button onclick="MostrarTexto('1')">
+                Métodos de ensino
+            </button>
+
+            <div class="conteudo" id="1">
+                Utiliza exemplos práticos e exercícios interativos.
+            </div>
+
+            <button onclick="MostrarTexto('2')">
+                Experiência
+            </button>
+
+            <div class="conteudo" id="2">
+                Possui ampla experiência na área educacional e tecnológica.
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

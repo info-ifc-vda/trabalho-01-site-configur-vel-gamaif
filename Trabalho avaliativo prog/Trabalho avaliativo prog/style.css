@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #222;
+    transition: 0.3s;
+}
+
+nav {
+    background-color: #83b1f5;
+    padding: 20px;
+}
+
+nav h1 {
+    color: white;
+    text-align: center;
+}
+
+.painel {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.painel h3 {
+    margin-bottom: 10px;
+}
+
+.painel button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a6ebd;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.painel button:hover {
+    background-color: #084298;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+section {
+    width: 50%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #83b1f5;
+}
+
+
+.Galeria {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#h2galeria {
+    text-align: center;
+}
+
+.Galeria img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.Galeria img:hover{
+    transform: scale(1.05);
+}
+
+.Curiosidades {
+    margin-top: 30px;
+}
+
+
+.Curiosidades button{
+    width: 20%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3a6ebd;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.conteudo{
+    visibility: hidden;
+
+    height: 0;
+
+    overflow: hidden;
+
+    margin-top: 10px;
+
+    background-color: #eee;
+
+    padding: 0 15px;
+
+    border-radius: 5px;
+
+    transition: 0.3s;
+}
+
+.mostrar{
+    visibility: visible;
+
+    height: auto;
+
+    padding: 15px;
+}
+
+.dark{
+    background-color: #121212;
+    color: white;
+}
+
+.dark section{
+    background-color: #1f1f1f;
+}
+
+.dark .panel{
+    background-color: #1f1f1f;
+}
